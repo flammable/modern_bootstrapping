@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>distribution_style</key>
+	<true/>
+	<key>identifier</key>
+	<string>tld.yourorg.bootstrap_multi_release</string>
+	<key>install_location</key>
+	<string>/</string>
+	<key>name</key>
+	<string>bootstrap_multi_release-${version}.pkg</string>
+	<key>ownership</key>
+	<string>recommended</string>
+	<key>postinstall_action</key>
+	<string>none</string>
+	<key>signing_info</key>
+    <dict>
+        <key>identity</key>
+        <string>Developer ID Installer: Your Organization (ABCDE12345)</string>
+        <key>timestamp</key>
+        <true/>
+    </dict>
+	<key>preserve_xattr</key>
+	<true/>
+	<key>suppress_bundle_relocation</key>
+	<true/>
+	<key>version</key>
+	<string>2.0.2.2</string>
+</dict>
+</plist>

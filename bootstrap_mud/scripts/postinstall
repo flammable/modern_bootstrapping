@@ -1,0 +1,22 @@
+#!/bin/bash
+
+authchanger="/usr/local/bin/authchanger"
+awk="/usr/bin/awk"
+echo="/bin/echo"
+killall="/usr/bin/killall"
+scutil="/usr/sbin/scutil"
+sleep="/bin/sleep"
+
+# Wait for the Setup Assistant to finish
+current_user=$(${echo} "show State:/Users/ConsoleUser" | ${scutil} | ${awk} '/Name :/ && ! /loginwindow/ { print $3 }')
+
+while [ "${current_user}" == "_mbsetupuser" ] 
+do
+    ${sleep} 1
+    current_user=$(${echo} "show State:/Users/ConsoleUser" | ${scutil} | ${awk} '/Name :/ && ! /loginwindow/ { print $3 }')
+done
+
+${authchanger} -reset -preLogin NoMADLoginAD:UserInput NoMADLoginAD:Notify
+${killall} loginwindow
+
+exit 0

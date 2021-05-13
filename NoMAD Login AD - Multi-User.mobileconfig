@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadOrganization</key>
+        <string>Your Organization</string>
+        <key>PayloadDisplayName</key>
+        <string>NoMAD Login AD</string>
+        <key>PayloadScope</key>
+        <string>System</string>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadRemovalDisallowed</key>
+        <true/>
+        <key>PayloadIdentifier</key>
+        <string>5312D107-393D-493C-A8D2-14C6E02A0763</string>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>ADDomain</key>
+                <string>ad.yourorg.tld</string>
+                <key>BackgroundImage</key>
+                <string>/Library/Management/background.png</string>
+                <key>LoginLogo</key>
+                <string>/Library/Management/logo.png</string>
+                <key>NotifyLogStyle</key>
+                <string>munki</string>
+                <key>UserInputLogo</key>
+                <string>/Library/Management/logo.png</string>
+                <key>UserInputMainText</key>
+                <string>Please ask a technician to fill out these fields.</string>
+                <key>UserInputTitle</key>
+                <string></string>
+                <key>UserInputOutputPath</key>
+                <string>/Users/Shared/UserInput.plist</string>
+                <key>CreateAdminUser</key>
+                <false/>
+                <key>LoginScreen</key>
+                <true/>
+                <key>CreateAdminIfGroupMember</key>
+				<array>
+					<string>IT_AD_group</string>
+				</array>
+				<key>KeychainAddNoMAD</key>
+                <true/>
+                <key>KeychainCreate</key>
+                <true/>
+                <key>KeychainReset</key>
+                <false/>
+                <key>DemobilizeUsers</key>
+                <true/>
+                <key>UsernameFieldPlaceholder</key>
+                <string>Enter Username</string>
+                <key>UserInputUI</key>
+                <dict>
+                    <key>TextFields</key>
+                    <array>
+                        <dict>
+                            <key>title</key>
+                            <string>Computer Name</string>
+                            <key>placeholder</key>
+                            <string>See label</string>
+                        </dict>
+                    </array>
+                    <key>PopUps</key>
+                    <array>
+                        <dict>
+                            <key>title</key>
+                            <string>Computer Type</string>
+                            <key>items</key>
+                            <array>
+                                <string>General Use</string>
+                                <string>Labs</string>
+                                <string>Labs - Research</string>
+                                <string>Podiums</string>
+                                <string>Servers</string>
+                            </array>
+                        </dict>
+                    </array>
+                    <key>Button</key>
+                    <dict>
+                        <key>title</key>
+                        <string>Apply</string>
+                    </dict>
+                </dict>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>PayloadDisplayName</key>
+                <string>NoMAD Login AD</string>
+                <key>PayloadOrganization</key>
+                <string>Your Organization</string>
+                <key>PayloadType</key>
+                <string>menu.nomad.login.ad</string>
+                <key>PayloadIdentifier</key>
+                <string>7D5A6BCB-1CFD-44BC-ADCF-B511A68F69E1</string>
+                <key>PayloadEnabled</key>
+                <true/>
+                <key>PayloadDescription</key>
+                <string>NoMAD Login AD</string>
+                <key>PayloadUUID</key>
+                <string>7D5A6BCB-1CFD-44BC-ADCF-B511A68F69E1</string>
+            </dict>
+        </array>
+        <key>PayloadUUID</key>
+        <string>5312D107-393D-493C-A8D2-14C6E02A0763</string>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>PayloadDescription</key>
+        <string>NoMAD Login AD</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+    </dict>
+</plist>

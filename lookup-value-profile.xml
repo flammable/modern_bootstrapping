@@ -1,0 +1,53 @@
+<dict>
+    <key>PayloadDisplayName</key>
+    <string>User details</string>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadIdentifier</key>
+    <string>com.air-watch.Internal.UserDetails</string>
+    <key>PayloadType</key>
+    <string>com.air-watch.Internal.UserDetails</string>
+    <key>PayloadUUID</key>
+    <string>E28357F9-8A80-4706-BC77-8CD4C0BD61B5</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+<key>CustomAttribute1</key><string>{CustomAttribute1}</string>
+<key>CustomAttribute2</key><string>{CustomAttribute2}</string>
+<key>CustomAttribute3</key><string>{CustomAttribute3}</string>
+<key>CustomAttribute4</key><string>{CustomAttribute4}</string>
+<key>CustomAttribute5</key><string>{CustomAttribute5}</string>
+<key>Department</key><string>{Department}</string>
+<key>DeviceAssetNumber</key><string>{DeviceAssetNumber}</string>
+<key>DeviceFriendlyName</key><string>{DeviceFriendlyName}</string>
+<key>DeviceIMEI</key><string>{DeviceIMEI}</string>
+<key>DeviceModel</key><string>{DeviceModel}</string>
+<key>DeviceOperatingSystem</key><string>{DeviceOperatingSystem}</string>
+<key>DevicePlatform</key><string>{DevicePlatform}</string>
+<key>DeviceReportedName</key><string>{DeviceReportedName}</string>
+<key>DeviceSerialNumber</key><string>{DeviceSerialNumber}</string>
+<key>DeviceSerialNumberLastFour</key><string>{DeviceSerialNumberLastFour}</string>
+<key>DeviceUid</key><string>{DeviceUid}</string>
+<key>DeviceUidLastFour</key><string>{DeviceUidLastFour}</string>
+<key>DeviceWLANMac</key><string>{DeviceWLANMac}</string>
+<key>DisplayName</key><string>{DisplayName}</string>
+<key>Domain</key><string>{Domain}</string>
+<key>EmailAddress</key><string>{EmailAddress}</string>
+<key>EmailDomain</key><string>{EmailDomain}</string>
+<key>EmailUserName</key><string>{EmailUserName}</string>
+<key>EnrollmentUser</key><string>{EnrollmentUser}</string>
+<key>EnrollmentUserId</key><string>{EnrollmentUserId}</string>
+<key>FirstName</key><string>{FirstName}</string>
+<key>FullName</key><string>{FullName}</string>
+<key>GroupIdentifier</key><string>{GroupIdentifier}</string>
+<key>LastName</key><string>{LastName}</string>
+<key>LocationGroup</key><string>{LocationGroup}</string>
+<key>LockedOutOn</key><string>{LockedOutOn}</string>
+<key>MiddleName</key><string>{MiddleName}</string>
+<key>MobileNumber</key><string>{MobileNumber}</string>
+<key>PhoneNumber</key><string>{PhoneNumber}</string>
+<key>SecureDeviceUdid</key><string>{SecureDeviceUdid}</string>
+<key>UserDistinguishedName</key><string>{UserDistinguishedName}</string>
+<key>UserPrincipalName</key><string>{UserPrincipalName}</string>
+<key>UserFirstInitial</key><string>{UserFirstInitial}</string>
+<key>UserInitials</key><string>{UserInitials}</string>
+</dict>
